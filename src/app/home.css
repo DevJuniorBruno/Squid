@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Zilla+Slab&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.containerHome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.headerHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+
+.txtHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px;
+    width: 40%;
+    height: 90%;
+    font-size: 28px;
+    font-family: 'Inria Serif', serif;
+    color: #622b90;
+}
+
+
+
+.btnHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+}
+
+.btnHeader button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+    background-color: brown;
+    height: 40px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: ease 0.1s;
+    border: none;
+}
+
+
+.btnHeader .eec{
+    background-color: #FFF002;
+}
+.btnHeader .eec:hover{
+    background-color: #ffef09b7;
+    color: #622b90;
+}
+
+.btnHeader .ns{
+    background-color: #622b90;
+    color: #fff;
+}
+
+.btnHeader .ns:hover{
+    background: #632b90b8;
+    color: #000;
+}
+
+.containerSvg{
+    width: 100%;
+
+}
+
+
+.txtContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: #622b90;
+    font-size: 24px;
+    text-align: center;
+}
+.txt{
+   width: 80%;
+   height: 100%;
+   margin-bottom: 20px;
+
+}
+
+.qamv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 394px;
+    height: 65px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.1s;
+    background-color: #FFF002;
+    box-shadow: #622b90;
+}
+
+.qamv:hover{
+    opacity: 0.8;
+}
+
+.mktInfosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.mktInfos{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    color: #622b90;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.description p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 30vw;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 10px rgba(172, 167, 167, 0.993), -5px -5px 10px rgba(172, 167, 167, 0.993), 5px -5px 10px rgba(172, 167, 167, 0.993), -5px 5px 10px rgba(172, 167, 167, 0.993);
+    cursor: pointer;
+    color: #622b90;
+    border-radius: 10px;
+}
+
+
+
+.service:hover{
+    background-color: #622b90;
+    color: #FFF;
+}
+
+.mktExplicito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #622b90;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.mktProblem{
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mktStrategy{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.red-word{
+    color: red;
+}
+
+.strategyContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+}
+
+.txtStrategy{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.yellow-word{
+    color: #FFF002;
+}
+
+.imgMkt{
+    border-radius: 20px;
+}
+
+@media(max-width:970px){
+
+    .headerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .txtHeader{
+        display: flex;
+        text-align: center;
+        width: 90%;
+        height: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .mktInfos{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .description{
+        width: 95%;
+        align-items: center;
+        color: #622b90;
+        font-size: 16px;
+    }
+    .services{
+        flex-direction: column;
+        width: 90%;
+    }
+    .service{
+        width: 100%;
+        height: 60vh;
+        margin-top: 20px;
+    }
+    .service p{
+        font-size: 18px;
+    }
+
+    .imgMkt{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .mktProblem{
+        text-align: center;
+        flex-direction:column-reverse;
+    }
+    .strategyContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .mktStrategy{
+        margin-top: 15px;
+        flex-direction: column;
+    }
+}
