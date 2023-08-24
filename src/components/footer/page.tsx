@@ -26,6 +26,7 @@ export default function Footer(){
                         src={SquidLogo}
                         width={150}
                         height={150}
+                        className="logoSquid"
                     />
 
                     <h3>Venha Crescer Com a Gente !</h3>

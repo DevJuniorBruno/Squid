@@ -15,6 +15,7 @@ footer{
     flex-direction: row;
     align-items: center;
 }
+
 .footerCenter{
     color: #622b90;
     display: flex;
@@ -25,6 +26,7 @@ footer{
     height: 50vh;
     font-size: 24px;
     text-align: center;
+
 }
 
 .footerBottom{
@@ -44,8 +46,22 @@ footer{
     }
     .footerTopContainer{
         width: 100%;
-        height: 100%;
+        height: 170vw;
         background-color: #000;
         flex-direction: column;
+        text-align: center;
+    }
+    .footerCenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .logoSquid{
+        width: 100px;
+        height: 100px;
     }
 }

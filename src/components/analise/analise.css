@@ -91,7 +91,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: aqua;
+    }
+    .buttonsDiv{
+        width: 100%;
     }
     .componentAnalise{
         margin-top: 80px;

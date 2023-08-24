@@ -5,7 +5,7 @@ import './analise.css';
 
 export default function Analise() {
     return (
-        <div className='componentAnalise' >
+        <section className='componentAnalise' >
             <div className="containerAnalise">
                 <h1>Receba uma análise gratuita</h1>
                 <div className='analise' >
@@ -17,8 +17,7 @@ export default function Analise() {
                     </p>
                 </div>
                 <div className='buttonAnalise' >
-
-
+                    
                     <div className="buttonsDiv">
                         <button className='lft' >Análise Gratuita</button>
                     </div>
@@ -29,7 +28,7 @@ export default function Analise() {
 
                 </div>
             </div>
-        </div>
+        </section>
 
     )
 }

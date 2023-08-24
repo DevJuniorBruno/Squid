@@ -2,7 +2,7 @@
 'use client'
 
 import React from 'react';
-import Lottie from 'react-lottie';
+import LottieAnimation from 'react-lottie';
 import marketing from '../../../public/marketing.json'; 
 import './lottieMkt.css';
 // Substitua 'marketing' pelo nome do seu arquivo JSON
@@ -14,12 +14,13 @@ const LottieMkt = () => {
     animationData: marketing,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice',
+      suppressHydrationWarning:true
     },
   };
 
   return (
     <div className="lottieMkt">
-      <Lottie options={defaultOptions} />
+      <LottieAnimation options={defaultOptions} />
     </div>
   );
 };
