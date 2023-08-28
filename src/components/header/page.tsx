@@ -30,15 +30,15 @@ export default function Header(){
                 <Image
                     src={Squid}
                     alt="Squid DIgital Solutions"
-                    width={150}
+                    width={190}
                 /> 
             </Link>
 
             <ul className={active} >
                 <li className="header__item"><Link className="header__link"  href='/' >Home</Link> </li>
-                <li className="header__item"><Link className="header__link"  href='/about'>About</Link></li>
-                <li className="header__item"><Link className="header__link"  href="/services" >Services</Link></li>
-                <li className="header__item"><Link className="header__link"  href="/contact">Contact</Link> </li>
+                <li className="header__item"><Link className="header__link"  href='/quemsomos'>Quem Somos</Link></li>
+                <li className="header__item"><Link className="header__link"  href="/servicos" >Serviços</Link></li>
+                <li className="header__item"><Link className="header__link"  href="/solicitarorcamento">Solitar Orçamento</Link> </li>
             </ul>
 
             <button type="button" id="button" onClick={headerToggle} className={toggleIcon} >

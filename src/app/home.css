@@ -15,10 +15,11 @@
 }
 
 .headerHome{
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     justify-content: center;
     margin-right: 90px;
     margin-left: 90px;
@@ -32,7 +33,7 @@
     justify-content: space-between;
     margin: 80px;
     width: 40%;
-    height: 90%;
+    height: 100%;
     font-size: 28px;
     font-family: 'Inria Serif', serif;
     color: #622b90;
@@ -46,7 +47,7 @@
     justify-content: space-between;
     width: 100%;
     height: 100px;
-    z-index: 2;
+    z-index: 10;
 }
 
 .btnHeader button{
@@ -61,7 +62,6 @@
     color: #000;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
     transition: ease 0.1s;
     border: none;
 }
@@ -71,6 +71,7 @@
     background-color: #FFF002;
 }
 .btnHeader .eec:hover{
+    cursor: pointer;
     background-color: #ffef09b7;
     color: #622b90;
 }
@@ -81,6 +82,7 @@
 }
 
 .btnHeader .ns:hover{
+    cursor: pointer;
     background: #632b90b8;
     color: #000;
 }
@@ -110,10 +112,11 @@
 }
 
 .qamv{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 394px;
+    width: 350px;
     height: 65px;
     border-radius: 10px;
     color: #000;
@@ -125,6 +128,7 @@
     transition: ease 0.1s;
     background-color: #FFF002;
     box-shadow: #622b90;
+    margin-bottom: 0;
 }
 
 .qamv:hover{
@@ -261,6 +265,12 @@
         align-items: center;
         margin: 0;
         padding: 0;
+        margin-top: 15vh;
+    }
+    .imgMkt{
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
     }
     .txtHeader{
         display: flex;
@@ -269,6 +279,11 @@
         height: 90%;
         padding: 0;
         margin: 0;
+        font-size: 22px ;
+    }
+    .txtHeader p {
+        font-size: 18px ;
+
     }
 
 

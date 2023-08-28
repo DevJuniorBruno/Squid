@@ -10,17 +10,18 @@
   },
   "dependencies": {
     "@types/node": "20.4.2",
-    "@types/react": "18.2.15",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "18.2.7",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "lottie-web": "^5.12.2",
     "next": "13.4.10",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-lottie": "^1.2.3",
     "react-responsive": "^9.0.2",
+    "react-typewriter-effect": "^1.1.0",
     "sharp": "^0.32.5",
     "typescript": "5.1.6"
   }

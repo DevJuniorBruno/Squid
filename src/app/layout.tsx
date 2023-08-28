@@ -1,4 +1,3 @@
-
 import Header from "@/components/header/page";
 import Footer from "@/components/footer/page";
 import Analise from '@/components/analise/page';
