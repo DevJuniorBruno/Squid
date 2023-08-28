@@ -104,11 +104,14 @@
     background-color: #622b90;
     font-size: 24px;
     text-align: center;
+    border: none;
 }
 .txt{
    width: 80%;
    height: 100%;
-   margin-bottom: 20px;
+   position: inherit;
+   margin: 0;
+   border-bottom: 1px solid #622b90;
 }
 
 .qamv{
@@ -128,7 +131,6 @@
     transition: ease 0.1s;
     background-color: #FFF002;
     box-shadow: #622b90;
-    margin-bottom: 0;
 }
 
 .qamv:hover{
@@ -266,6 +268,9 @@
         margin: 0;
         padding: 0;
         margin-top: 15vh;
+    }
+    .txtContainer{
+        border: none;
     }
     .imgMkt{
         margin-bottom: 30px;
