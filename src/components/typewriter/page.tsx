@@ -8,7 +8,7 @@ export default function TypeWriter(){
     return(
         <Typewriter
             options={{
-              strings: ['aqui!', 'agora!'],
+              strings: ['AQUI!', 'AGORA!'],
               autoStart: true,
               loop: true,
             }}

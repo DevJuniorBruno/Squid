@@ -1,6 +1,6 @@
 import './home.css';
-import LottieCel from '@/components/lottieCel/page';
-import LottieMkt from '@/components/lottieMkt/page';
+import LottieCel from '@/components/animationCel/page';
+import LottieMkt from '@/components/animationMkt/page';
 import { SiGoogleads } from 'react-icons/si';
 import { BsMegaphoneFill } from 'react-icons/bs';
 import { LuMonitorSmartphone } from 'react-icons/lu';
