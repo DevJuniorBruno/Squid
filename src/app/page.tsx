@@ -51,7 +51,7 @@ export default function Home() {
           </p>
 
         </div>
-        
+        <button className="qamv" >QUERO AUMENTAR MINHAS VENDAS</button>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#622b90" fillOpacity="1" d="M0,256L80,229.3C160,203,320,149,480,144C640,139,800,181,960,186.7C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
 
