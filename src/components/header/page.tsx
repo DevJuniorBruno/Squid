@@ -1,5 +1,6 @@
 'use client'
 
+
 import Link from "next/link";
 import './header.css';
 import Image from "next/image";
@@ -30,7 +31,7 @@ export default function Header(){
                 <Image
                     src={Squid}
                     alt="Squid DIgital Solutions"
-                    width={190}
+                    width={200}
                 /> 
             </Link>
 

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Zilla+Slab&display=swap');
 
 .header{
   display: flex;
@@ -14,6 +14,7 @@
 li{
   list-style: none;
   font-size: 14px;
+  font-family: 'Inria Serif', serif;
 }
 
 a{

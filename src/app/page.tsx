@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className='txtHeader' >
           <h1>
-            O caminho para o sucesso começa {<TypeWriter/>}
+            O caminho para o sucesso começa {<TypeWriter />}
           </h1>
           <p>
             Alcance novos clientes e aumente sua receita.
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         <LottieCel />
-        
+
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#622b90" fillOpacity="1" d="M0,256L80,229.3C160,203,320,149,480,144C640,139,800,181,960,186.7C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
@@ -49,9 +49,9 @@ export default function Home() {
           <p>
             Somos uma agência ideal para a sua jornada no marketing digital. Oferecemos soluções de criação de sites personalizados e estratégias de tráfego pago que irão atrair mais clientes para o seu negócio. Nossa paixão é ver o seu sucesso crescer, e estamos aqui para guiá-lo em cada passo do caminho.
           </p>
-
+          <button className="qamv" >QUERO AUMENTAR MINHAS VENDAS</button>
         </div>
-        <button className="qamv" >QUERO AUMENTAR MINHAS VENDAS</button>
+
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#622b90" fillOpacity="1" d="M0,256L80,229.3C160,203,320,149,480,144C640,139,800,181,960,186.7C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
 
@@ -122,7 +122,7 @@ export default function Home() {
                 Leads <span className='red-word' >Desqualificados</span> chegando no Funil;
               </p>
               <p>
-                <span className='red-word' >Orçamentos</span> de<span className='red-word' >Mídia Mal Geridos</span>;
+                <span className='red-word' >Orçamentos</span> de <span className='red-word' >Mídia Mal Geridos</span>;
               </p>
               <p>
                 <span className='red-word' >Poucas vendas</span> e <span className='red-word' >resultado</span>;

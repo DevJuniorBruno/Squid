@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Zilla+Slab&display=swap');
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
 
-.containerHome{
+.containerHome {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.headerHome{
+.headerHome {
     margin-top: 5vh;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
     margin-left: 90px;
 }
 
-.txtHeader{
+.txtHeader {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,7 +41,7 @@
 
 
 
-.btnHeader{
+.btnHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@
     z-index: 10;
 }
 
-.btnHeader button{
+.btnHeader button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,54 +67,62 @@
 }
 
 
-.btnHeader .eec{
+.btnHeader .eec {
     background-color: #FFF002;
 }
-.btnHeader .eec:hover{
+
+.btnHeader .eec:hover {
     cursor: pointer;
     background-color: #ffef09b7;
     color: #622b90;
 }
 
-.btnHeader .ns{
+.btnHeader .ns {
     background-color: #622b90;
     color: #fff;
 }
 
-.btnHeader .ns:hover{
+.btnHeader .ns:hover {
     cursor: pointer;
     background: #632b90b8;
     color: #000;
 }
 
-.containerSvg{
+.containerSvg {
     width: 100%;
 
 }
 
 
-.txtContainer{
+.txtContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     color: #fff;
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-color: #622b90;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Inria Serif', serif;
     text-align: center;
-    margin: -3px;
-}
-.txt{
-   width: 80%;
-   height: 100%;
-   position: relative;
-   margin: 0;
-   border-bottom: 1px solid #622b90;
+    margin: -5px;
 }
 
-.qamv{
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    gap: 20px;
+    font-family: 'Inria Serif', serif;
+}
+
+.qamv {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -132,11 +140,11 @@
     box-shadow: #622b90;
 }
 
-.qamv:hover{
+.qamv:hover {
     opacity: 0.8;
 }
 
-.mktInfosContainer{
+.mktInfosContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +153,7 @@
     height: 100%;
 }
 
-.mktInfos{
+.mktInfos {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -154,22 +162,27 @@
     height: 100%;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
     color: #622b90;
-    font-size: 18px;
     justify-content: space-evenly;
 }
 
-.description p{
-    margin-top: 20px;
-    font-size: 18px;
+.description h1{
+    font-size: 48px;
+    font-family: 'Inria Serif', serif;
 }
 
-.services{
+.description p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+}
+
+.services {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -178,7 +191,7 @@
     margin-top: 15px;
 }
 
-.service{
+.service {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -194,12 +207,12 @@
 
 
 
-.service:hover{
+.service:hover {
     background-color: #622b90;
     color: #FFF;
 }
 
-.mktExplicito{
+.mktExplicito {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +227,7 @@
     margin: -2px;
 }
 
-.mktProblem{
+.mktProblem {
     margin-top: 80px;
     width: 70%;
     display: flex;
@@ -226,39 +239,42 @@
     margin-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.mktStrategy{
+
+.mktStrategy {
     display: flex;
     width: 70%;
     justify-content: space-between;
     margin-top: 20px;
 
 }
-.red-word{
+
+.red-word {
     color: red;
 }
 
-.strategyContainer{
+.strategyContainer {
     display: flex;
     flex-direction: column;
     width: 50%;
     text-align: right;
 }
 
-.txtStrategy{
+.txtStrategy {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.yellow-word{
+
+.yellow-word {
     color: #FFF002;
 }
 
-.imgMkt{
+.imgMkt {
     border-radius: 20px;
 }
 
-@media(max-width:970px){
+@media(max-width:970px) {
 
-    .headerHome{
+    .headerHome {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -269,79 +285,91 @@
         padding: 0;
         margin-top: 15vh;
     }
-    .txtContainer{
+
+    .txtContainer {
         border: none;
     }
-    
-    .imgMkt{
+
+    .imgMkt {
         margin-bottom: 30px;
         width: 100%;
         height: auto;
     }
-    .txtHeader{
+
+    .txtHeader {
         display: flex;
         text-align: center;
         width: 90%;
         height: 90%;
         padding: 0;
         margin: 0;
-        font-size: 22px ;
+        font-size: 22px;
     }
+
     .txtHeader p {
-        font-size: 18px ;
+        font-size: 18px;
 
     }
 
 
-    .mktInfos{
+    .mktInfos {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
-    .description{
+
+    .description {
         width: 95%;
         align-items: center;
         color: #622b90;
         font-size: 16px;
     }
-    .services{
+
+    .services {
         flex-direction: column;
         width: 90%;
     }
-    .service{
+
+    .service {
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         margin-top: 20px;
     }
-    .service p{
+
+    .service p {
         font-size: 18px;
     }
 
-    .imgMkt{
+    .imgMkt {
         width: 100%;
         border-radius: 20px;
     }
-    .mktProblem{
+
+    .mktProblem {
         text-align: center;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
-    .strategyContainer{
+
+    .strategyContainer {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         text-align: center;
     }
-    .mktStrategy{
+
+    .mktStrategy {
         margin-top: 15px;
         flex-direction: column;
     }
-    .mktExplicito{
+
+    .mktExplicito {
         font-size: 20px;
         text-align: center;
     }
-    .qamv{
+
+    .qamv {
         width: 90%;
-        height: 100%;
+        height: 60px;
     }
 }
