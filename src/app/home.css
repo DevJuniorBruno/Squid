@@ -12,6 +12,7 @@
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
+    margin: 0;
 }
 
 .headerHome{
@@ -23,7 +24,6 @@
     justify-content: center;
     margin-right: 90px;
     margin-left: 90px;
-    margin-bottom: 0;
 }
 
 .txtHeader{
@@ -104,7 +104,7 @@
     background-color: #622b90;
     font-size: 24px;
     text-align: center;
-    margin: 0;
+    margin: -3px;
 }
 .txt{
    width: 80%;
@@ -211,6 +211,7 @@
     text-align: center;
     color: #fff;
     border: none;
+    margin: -2px;
 }
 
 .mktProblem{
