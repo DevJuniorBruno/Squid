@@ -1,0 +1,11 @@
+.estrategiaLottie{
+    width: 40%;
+    pointer-events: none;
+    margin-top: -80px;
+    }
+    
+    @media(max-width:970px){
+        .estrategiaLottie{
+            width: 100%;
+        }
+    }

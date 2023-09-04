@@ -65,11 +65,12 @@ button span{
       top: 10vh;
       right: 0;
       width: 50vw;
-      height: 93vh;
+      height: 100%;
       background: #000;
       flex-direction: column;
       transform: translateX(100%);
       transition: 0.5s ease-in;
+      padding-bottom:15vh;
   }
 }
 

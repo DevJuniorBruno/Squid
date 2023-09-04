@@ -1,3 +1,4 @@
+
 import './home.css';
 import LottieCel from '@/components/animationCel/page';
 import LottieMkt from '@/components/animationMkt/page';
@@ -12,6 +13,7 @@ import Confuse from '../../public/confuse.jpg';
 
 
 export default function Home() {
+
 
 
   return (
