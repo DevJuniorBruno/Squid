@@ -36,10 +36,10 @@ export default function Header(){
             </Link>
 
             <ul className={active} >
-                <li className="header__item"><Link className="header__link"  href='/' >Home</Link> </li>
-                <li className="header__item"><Link className="header__link"  href='/quemsomos'>Quem Somos</Link></li>
-                <li className="header__item"><Link className="header__link"  href="/servicos" >Serviços</Link></li>
-                <li className="header__item"><Link className="header__link"  href="/solicitarorcamento">Solitar Orçamento</Link> </li>
+                <li className="header__item"><Link className="header__link"  href='/' onClick={headerToggle}>Home</Link> </li>
+                <li className="header__item"><Link className="header__link"  href='/quemsomos' onClick={headerToggle}>Quem Somos</Link></li>
+                <li className="header__item"><Link className="header__link"  href="/servicos" onClick={headerToggle} >Serviços</Link></li>
+                <li className="header__item"><Link className="header__link"  href="/solicitarorcamento" onClick={headerToggle}>Solitar Orçamento</Link> </li>
             </ul>
 
             <button type="button" id="button" onClick={headerToggle} className={toggleIcon} >
