@@ -17,22 +17,89 @@
     color: #622b90;
     gap: 30px;
     align-items: center;
-    margin: 6% 10% -200px 10%;
+    margin: 9% 10% -200px 10%;
 }
 .containerPurple{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    padding: 2% 15% 2% 15%;
+    height: 100%;
     background-color: #622b90;
-    margin: -5px 0 -5px 0;
+    margin: -20px 0 -5px 0;
+    color: #fff;
+    font-family: 'Inria Serif', serif;
 }
 
-.containerPurple h1, p{
-    margin: 0 10% 0 10% ;
+.containerPurple h1{
+    text-align: center;
+    margin: 0 10% 10% 10% ;
 }
+.containerPurple p{
+    margin-top: 30px;
+}
+
+.colorYellow{
+    color: #fdf200;
+}
+
+.cardEstrategia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 33%;
+    height: 250px;
+    background-color: #622b90;
+    margin-bottom:10px ;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-family: 'Inria Serif', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cardEstrategia:nth-child(odd){
+    background-color: transparent;
+    color: #fff;
+}
+.cardEstrategia:nth-child(even){
+    background-color: #fdf200;
+    color: #000;
+}
+
+.cardEstrategia:nth-child(odd):hover{
+    background-color: #fdf200;
+    color: #000;
+}
+
+.cardEstrategia:nth-child(even):hover{
+    background-color: #622b90;
+    color: #fff;
+}
+
 
 @media(max-width:970px){
     .headerQuemSomos{
         margin-top: 40%;
         font-size: 22px;
         margin-bottom: 0px;
+    }
+    .containerPurple{
+        font-size: 22px;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardEstrategia{
+        width: 85%;
     }
 }
