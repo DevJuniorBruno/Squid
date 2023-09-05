@@ -9,6 +9,7 @@
   background-color: #000;
   position: fixed;
   z-index: 999;
+  margin: 0;
 }
 
 li{
