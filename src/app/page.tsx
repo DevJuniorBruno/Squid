@@ -6,7 +6,6 @@ import { SiGoogleads } from 'react-icons/si';
 import { BsMegaphoneFill } from 'react-icons/bs';
 import { LuMonitorSmartphone } from 'react-icons/lu';
 import TypeWriter from '@/components/typewriter/page';
-
 import Image from 'next/image'
 import Strategy from '../../public/strategy.jpg';
 import Confuse from '../../public/confuse.jpg';
