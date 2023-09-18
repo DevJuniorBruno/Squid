@@ -29,6 +29,8 @@
     width: 100%;
     height: 100%;
     background-color: #622b90;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .cardsServices{
@@ -50,4 +52,22 @@
 }
 .containerAnimation p{
     width: 50%;
+}
+
+@media(max-width:970px){
+    .cardsServicesContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerAnimation{
+        flex-direction: column;
+        font-size: 32px;
+        text-align: center;
+    }
+    .containerAnimation p{
+        width: 100%;
+    }
 }
