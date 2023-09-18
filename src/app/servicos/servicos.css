@@ -36,6 +36,7 @@
     font-size:18px;
     font-family: 'Inria Serif', serif;
     margin-left: 10%;
+    margin-right: 10%;
 }
 .containerAnimation{
     display: flex;

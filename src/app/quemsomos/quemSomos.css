@@ -74,15 +74,6 @@
     color: #000;
 }
 
-.cardEstrategia:nth-child(odd):hover{
-    background-color: #fdf200;
-    color: #000;
-}
-
-.cardEstrategia:nth-child(even):hover{
-    background-color: #622b90;
-    color: #fff;
-}
 
 
 @media(max-width:970px){
