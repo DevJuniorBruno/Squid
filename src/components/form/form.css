@@ -7,29 +7,50 @@
     font-size: 24px;
     align-items: center;
     justify-content: space-around;
-    height: 300px;
+    height: 350px;
     width: 50%;
     border: 1px solid color#ae00004b;
-    background-color: #622b90;
     border-radius:10px;
 }
 .input{
     width: 90%;
-    height:5vh;
-    border: 1px solid color#ffffff77;
-
+    height:7vh;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5ca;
+    font-size: 12px;
+    padding-left:5px;
+    color: #622b90;
+    font-family: 'Inria Serif', serif;
 }
+
+
 
 .textArea{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 90%;
-    height:8vh;
-    padding-top: 10px;
+    height:10vh;
+    border: 1px solid #d5d5d5ca;
+    padding-left:5px;
+    color: #622b90;
 }
 
 .button_Contact{
     width: 90%;
-    height: 5vh ;
+    height: 7vh ;
+    background: linear-gradient(to right, #8b00fd8a ,#622b90);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inria Serif', serif;
+    color:#FFF;
+}
+
+@media(max-width:970px){
+    .form{
+        width: 90%;
+    }
 }

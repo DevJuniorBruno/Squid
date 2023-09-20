@@ -1,5 +1,6 @@
 import './orcamento.css';
 import Form from '@/components/form/page';
+import MapPage from '@/components/maps/page';
 
 export default function GetOrcamento(){
     return(
@@ -11,6 +12,7 @@ export default function GetOrcamento(){
             <div className='formulario' >
                 <Form/> 
             </div>
+            <MapPage/>
 
         </section>
     )

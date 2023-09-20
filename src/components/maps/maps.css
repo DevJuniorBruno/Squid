@@ -1,0 +1,21 @@
+.container_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.map{
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
