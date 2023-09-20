@@ -9,6 +9,7 @@ import TypeWriter from '@/components/typewriter/page';
 import Image from 'next/image'
 import Strategy from '../../public/strategy.jpg';
 import Confuse from '../../public/confuse.jpg';
+import Analise from '@/components/analise/page';
 
 
 export default function Home() {
@@ -170,6 +171,8 @@ export default function Home() {
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#622b90" fillOpacity="1" d="M0,32L80,37.3C160,43,320,53,480,85.3C640,117,800,171,960,165.3C1120,160,1280,96,1360,64L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
       </div>
+
+      {<Analise/>}
 
     </main>
   )

@@ -1,6 +1,5 @@
 import Header from "@/components/header/page";
 import Footer from "@/components/footer/page";
-import Analise from '@/components/analise/page';
 import WhatsAppButton from "@/components/whatsButton/page";
 import './home.css';
 
@@ -21,7 +20,6 @@ export default function RootLayout({
         {<Header/>}
         {<WhatsAppButton/>}
         {children}
-        {<Analise/>}
         {<Footer />}
 
       </body>

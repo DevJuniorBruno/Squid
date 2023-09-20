@@ -1,0 +1,35 @@
+
+
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 50%;
+    border: 1px solid color#ae00004b;
+    background-color: #622b90;
+    border-radius:10px;
+}
+.input{
+    width: 90%;
+    height:5vh;
+    border: 1px solid color#ffffff77;
+
+}
+
+.textArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height:8vh;
+    padding-top: 10px;
+}
+
+.button_Contact{
+    width: 90%;
+    height: 5vh ;
+}

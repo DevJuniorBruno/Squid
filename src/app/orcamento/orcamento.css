@@ -1,0 +1,21 @@
+.getOrcamento{
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inria Serif', serif;
+}
+.headerOrcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    font-size: 28px;  
+    color: #622b90;  
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
