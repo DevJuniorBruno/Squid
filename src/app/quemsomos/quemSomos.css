@@ -19,6 +19,10 @@
     align-items: center;
     margin: 9% 10% -200px 10%;
 }
+
+.headerQuemSomos h1{
+    font-size: 48px;
+}
 .containerPurple{
     display: flex;
     align-items: center;

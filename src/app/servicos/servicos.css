@@ -19,6 +19,9 @@
     align-items: center;
     text-align: center;
 }
+.headerServicos h1{
+    font-size: 48px;
+}
 
 .cardsServicesContainer{
     display: grid;

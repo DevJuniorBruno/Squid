@@ -10,6 +10,7 @@ import Image from 'next/image'
 import Strategy from '../../public/strategy.jpg';
 import Confuse from '../../public/confuse.jpg';
 import Analise from '@/components/analise/page';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -29,9 +30,16 @@ export default function Home() {
             Alcance novos clientes e aumente sua receita.
           </p>
           <div className="btnHeader">
-            <button className="eec" >Entre em contato</button>
 
+            <Link href="https://api.whatsapp.com/send/?phone=5511963651434" target="_blank" >
+            <button className="eec" >Entre em contato</button>
+            </Link>
+
+            <Link href="/servicos" > 
             <button className="ns" >Nossos serviços</button>
+            
+            </Link>
+
           </div>
 
         </div>
@@ -51,7 +59,10 @@ export default function Home() {
           <p>
             Somos uma agência ideal para a sua jornada no marketing digital. Oferecemos soluções de criação de sites personalizados e estratégias de tráfego pago que irão atrair mais clientes para o seu negócio. Nossa paixão é ver o seu sucesso crescer, e estamos aqui para guiá-lo em cada passo do caminho.
           </p>
-          <button className="qamv" >QUERO AUMENTAR MINHAS VENDAS</button>
+
+          <Link href="/orcamento" className='qamvContainer' >
+          <button className="qamv" >QUERO AUMENTAR MINHAS VENDAS</button>          
+          </Link>
         </div>
 
       </div>
