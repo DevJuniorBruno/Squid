@@ -27,7 +27,7 @@ export default function Header(){
     //TogglerIcon
     return(
         <header className="header" >
-            <Link className="header__logo" href='/dashboard' >
+            <Link className="header__logo" href='/' >
                 <Image
                     src={Squid}
                     alt="Squid DIgital Solutions"

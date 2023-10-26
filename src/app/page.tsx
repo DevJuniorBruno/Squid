@@ -1,4 +1,3 @@
-
 import './home.css';
 import LottieCel from '@/components/animationCel/page';
 import LottieMkt from '@/components/animationMkt/page';

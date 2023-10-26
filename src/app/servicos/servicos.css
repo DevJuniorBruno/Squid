@@ -34,6 +34,8 @@
     background-color: #622b90;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: -1px;
+    margin-bottom: -2px;
 }
 
 .cardsServices{
@@ -55,7 +57,8 @@
     margin-top: -80px;
 }
 .containerAnimation p{
-    width: 50%;
+    width: 48%;
+    margin-left:2%;
 }
 
 @media(max-width:970px){
