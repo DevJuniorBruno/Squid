@@ -35,7 +35,7 @@ export default function Footer(){
                 <div className='footerRgt' >
                     <h2>Nosso Contato :</h2>
                     <p>(11) 98611-7035</p>
-                    <p>squidsolutions@gmail.com.com</p>
+                    <p>squidsolutions@gmail.com</p>
                     <p>Segunda a sexta das 09h ás 18h</p>
                     <p>Sábado das 09h ás 12h</p>
                 </div>

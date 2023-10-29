@@ -27,8 +27,9 @@ export default function Analise() {
 
                     <div className="buttonsDiv" >
                         <Link href="https://api.whatsapp.com/send/?phone=5511963651434" target="_blank" >
-                        </Link>
                         <button className='rgt' >Entrar em Contato</button>
+                        </Link>
+                        
                     </div>
 
                 </div>

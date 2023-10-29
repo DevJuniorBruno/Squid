@@ -4,7 +4,7 @@ import WhatsAppButton from "@/components/whatsButton/page";
 import './home.css';
 
 export const metadata = {
-  title: 'HOME | Squid Digital Solutions',
+  title: 'HOME | Squid Digital Solutions'
 }
 
 
