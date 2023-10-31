@@ -1,6 +1,7 @@
 import Header from "@/components/header/page";
 import Footer from "@/components/footer/page";
 import WhatsAppButton from "@/components/whatsButton/page";
+import Menssage from '@/components/message/page';
 import './home.css';
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         {<Header/>}
         {<WhatsAppButton/>}
+        {<Menssage/>}
         {children}
         {<Footer />}
 
