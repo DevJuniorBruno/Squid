@@ -14,6 +14,22 @@
     box-shadow: rgba(0, 0, 0, 0.635) 0px 3px 8px;
 }
 
+.classNone{
+  display: none;
+}
+.buttonClose{
+  width:80px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  border: 0.5px solid #000
+}
 
 
 @media(max-width: 860px){
