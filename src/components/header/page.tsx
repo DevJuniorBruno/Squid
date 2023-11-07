@@ -7,7 +7,11 @@ import Image from "next/image";
 import Squid from '../../../public/logoRecortadoCerto.png';
 import {useState} from 'react';
 
+import FacebookPixel from "../FacebookPixel/FacebookPixel";
+
 export default function Header(){
+
+    <FacebookPixel />
 
     const[active, setActive]=useState("header__menu");
     const[toggleIcon, setToggleIcon]=useState("header__toggler")
@@ -26,7 +30,7 @@ export default function Header(){
 
     //TogglerIcon
     return(
-        <header className="header" >
+        <head className="header" >
             <Link className="header__logo" href='/' >
                 <Image
                     src={Squid}
@@ -48,6 +52,8 @@ export default function Header(){
             <span></span>
             <span></span>
             </button>
-        </header>
+
+            
+        </head>
     )
 }
