@@ -9,13 +9,19 @@ import {useState} from 'react';
 
 import FacebookPixel from "../FacebookPixel/FacebookPixel";
 
+import GooglePixel from "../googlePixel/pixelGoogle";
+
 export default function Header(){
+<>
+<GooglePixel />
 
-    <FacebookPixel />
+<FacebookPixel />
 
+
+</>
     const[active, setActive]=useState("header__menu");
     const[toggleIcon, setToggleIcon]=useState("header__toggler")
-
+    
 
     const headerToggle = ()=>{
         active === "header__menu"
