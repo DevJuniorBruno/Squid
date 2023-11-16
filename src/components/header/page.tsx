@@ -12,13 +12,6 @@ import FacebookPixel from "../FacebookPixel/FacebookPixel";
 import GooglePixel from "../googlePixel/pixelGoogle";
 
 export default function Header(){
-<>
-<GooglePixel />
-
-<FacebookPixel />
-
-
-</>
     const[active, setActive]=useState("header__menu");
     const[toggleIcon, setToggleIcon]=useState("header__toggler")
     
@@ -37,6 +30,13 @@ export default function Header(){
     //TogglerIcon
     return(
         <head className="header" >
+<>
+<GooglePixel />
+
+<FacebookPixel />
+
+
+</>
             <Link className="header__logo" href='/' >
                 <Image
                     src={Squid}
