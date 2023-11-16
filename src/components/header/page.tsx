@@ -30,13 +30,13 @@ export default function Header(){
     //TogglerIcon
     return(
         <head className="header" >
-<>
+
 <GooglePixel />
 
 <FacebookPixel />
 
 
-</>
+
             <Link className="header__logo" href='/' >
                 <Image
                     src={Squid}
