@@ -31,6 +31,16 @@ export default function Header(){
     return(
         <head className="header" >
 
+            <script
+                dangerouslySetInnerHTML={{
+                    __html:`( window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                      
+                        gtag('config', 'AW-11413970221');)`
+                }}
+            />
+
 <GooglePixel />
 
 <FacebookPixel />
