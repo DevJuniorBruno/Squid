@@ -20,13 +20,11 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1537857630318161');
 fbq('track', 'PageView');
-
-
-
 `;
-<noscript><img className='facebookNoscript'
+
+<img className='facebookNoscript'
 src="https://www.facebook.com/tr?id=1537857630318161&ev=PageView&noscript=1"
-/></noscript>
+/>
     
 
     // Adicione o script à cabeça (head) do documento
