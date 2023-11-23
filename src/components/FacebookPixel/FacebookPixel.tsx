@@ -1,6 +1,6 @@
 // components/FacebookPixel.tsx
 import { useEffect } from 'react';
-import "facebookPixel.css";
+import "./facebookPixel.css";
 
 const FacebookPixel = () => {
   useEffect(() => {
