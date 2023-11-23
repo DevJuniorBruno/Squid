@@ -1,4 +1,6 @@
+'use client'
 // components/FacebookPixel.tsx
+
 import { useEffect } from 'react';
 import "./facebookPixel.css";
 
